@@ -1,25 +1,5 @@
-const palindromeInputNode=document.getElementById("palindromeInput");
-const addButtonNode=document.getElementById("addButton");
+document.getElementById('paddButton').onclick = myClick;
 
-function getPalindromeFromUser () {
-    return parseInt (palindromeInputNode);
-}
-
-
-//function palindrome
-
-// функция-обработчик, которая будет вызвана при нажатии на кнопку Добавить
-function addButtonHandler() {
-    // сохранияем в переменную currentAmount введенную сумму
-    const currentPalindrome = getPalindromeFromUser();
-    if (!currentPalindrome) {
-    return;
-    }
-
- 
-
-}
-
-
-// Привязка функций-обработчиков к кнопкам
-addButtonNode.addEventListener("click",addButtonHandler);
+function myClick (){
+    let a = document.getElementById('palindromeInput').value;
+};
