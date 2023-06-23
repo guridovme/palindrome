@@ -1,5 +1,6 @@
-document.getElementById('paddButton').onclick = myClick;
+document.getElementById('addButton').onclick = myClick;
 
 function myClick (){
     let a = document.getElementById('palindromeInput').value;
+
 };
