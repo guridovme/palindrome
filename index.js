@@ -1,7 +1,7 @@
 document.getElementById('addButton').onclick = getInput();
-
+let a = 0; 
 
 function getInput (){
-    var a = document.getElementById('palindromeInput').value;
+    let a = document.getElementById('palindromeInput').value;
     console.log(a);
 };
