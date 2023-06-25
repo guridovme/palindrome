@@ -1,6 +1,6 @@
 function multiple (){
-    const a = 2;
-    const b = 2;
+    const a = 5;
+    const b = 5;
     multipleResult = a * b;
     console.log('Multiple Result', a , '*', b ,'=', multipleResult);
 
