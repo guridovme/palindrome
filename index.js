@@ -10,27 +10,8 @@ function addButtonHandler() {
     if (!currentAmount) {
     return;
     }
+    console.log(currentAmount);
 
-    
-    const currentCategory = getSelectedCategory();
-
-    
-    if (currentCategory === "Категория") {
-    
-    return;
-    }
- 
-    
-    const newExpense = {amount: currentAmount, category: currentCategory};
-    console.log(newExpense);
-
-    
-    expenses.push(newExpense);
-    
-    render();
-
-    
-    clearInput(inputNode);
 }
 
 
