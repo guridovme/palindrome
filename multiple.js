@@ -6,3 +6,8 @@ function multiple (){
 
 }
 multiple ();
+
+
+function mult(a, b) { return a * b; }
+let x = mult(5, 6);
+console.log(x);
