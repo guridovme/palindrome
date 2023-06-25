@@ -9,15 +9,10 @@ addButtonNode.addEventListener("click",addButtonHandler);
 
 function addButtonHandler() {
     
-    const currentAmount = getExpenseFromUser();
-    if (!currentAmount) {
-    return;
-    }
-    console.log(currentAmount);
-
+    const currentAmount = inputNode.value;
+   
 }
 
 
-function getExpenseFromUser () {
-    return parseInt (inputNode.value);
-}
+
+console.log('currentAmount=',currentAmount);
