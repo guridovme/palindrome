@@ -1,5 +1,39 @@
-function myFunction(){
-    const a = parseInt(document.getElementById('palindromeInput').value);
+const addButtonNode=document.getElementById("addButton");
+const inputNode=document.getElementById("palindromeInput");
 
-    document.getElementById('output').innerHTML = a;
+
+addButtonNode.addEventListener("click",addButtonHandler);
+
+function addButtonHandler() {
+    
+    const currentAmount = getExpenseFromUser();
+    if (!currentAmount) {
+    return;
+    }
+
+    
+    const currentCategory = getSelectedCategory();
+
+    
+    if (currentCategory === "Категория") {
+    
+    return;
+    }
+ 
+    
+    const newExpense = {amount: currentAmount, category: currentCategory};
+    console.log(newExpense);
+
+    
+    expenses.push(newExpense);
+    
+    render();
+
+    
+    clearInput(inputNode);
+}
+
+
+function getExpenseFromUser () {
+    return parseInt (inputNode.value);
 }
