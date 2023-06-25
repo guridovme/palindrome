@@ -8,6 +8,6 @@ function multiple (){
 multiple ();
 
 
-function mult(a, b) { return a * b; }
-let x = mult(5, 6);
+function multiply(a, b) { return a * b; }
+let x = multiply(5, 6);
 console.log(x);
