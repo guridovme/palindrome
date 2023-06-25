@@ -13,6 +13,6 @@ function addButtonHandler() {
    
 }
 
-
+addButtonHandler();
 
 console.log('currentAmount=',currentAmount);
