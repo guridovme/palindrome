@@ -17,3 +17,4 @@ function multiple (){
     console.log('Multiple Result', a , '*', b ,'=', multipleResult);
 
 }
+function multiple ();
