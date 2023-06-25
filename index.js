@@ -10,7 +10,7 @@ outputNode.innerText = palindrome;
 
 
 
-function multiple (a,b){
+function multiple (){
     const a = 2;
     const b = 2;
     multipleResult = a*b;
