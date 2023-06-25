@@ -1,6 +1,9 @@
-const addButtonNode=document.getElementById("addButton");
-const inputNode=document.getElementById("palindromeInput");
+const addButtonNode = document.getElementById("addButton");
+const inputNode = document.getElementById("palindromeInput");
 
+
+console.log(addButtonNode);
+console.log(inputNode);
 
 addButtonNode.addEventListener("click",addButtonHandler);
 
