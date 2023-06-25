@@ -7,3 +7,13 @@ const palindrome = inputNode.value;
 console.log(palindrome);
 outputNode.innerText = palindrome;
 });
+
+
+
+function multiple (a,b){
+const a = 2
+const b = 2
+    multipleResult = a*b;
+    console.log('Multiple Result', a , '*', b ,'=', multipleResult);
+
+}
