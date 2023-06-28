@@ -1,11 +1,11 @@
-function multiply (){
-    const a = 5;
-    const b = 5;
-    c = a * b;
-    console.log('Result:', a , '*', b ,'=', c);
+// function multiply (){
+//     const a = 5;
+//     const b = 5;
+//     c = a * b;
+//     console.log('Result:', a , '*', b ,'=', c);
 
-}
-multiply ();
+// }
+// multiply ();
 
 
 function multiple(a, b) { 

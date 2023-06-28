@@ -1,8 +1,8 @@
 function buildDate (day, month, year){
     
-    return 
+    return `${day} / ${month} / ${year}`;
     
 }
 
-let x = buildDate('22', '06', '2002');
-console.log(x);
+
+console.log(buildDate('12','06','2023'));
